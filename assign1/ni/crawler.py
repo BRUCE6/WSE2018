@@ -358,8 +358,8 @@ if __name__ == '__main__':
         'c': 'main',
         'n': 10,
         'showerrors': 1,
-        'userid':196,
-        'code':1489906050,
+        'userid':***, # buy on website
+        'code':***,
     }
     res = requests.get(url, params = params)
     results = res.json()['results']
